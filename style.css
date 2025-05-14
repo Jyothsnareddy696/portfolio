@@ -1,0 +1,98 @@
+
+body{
+    background-image: url("man.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  div{
+    display: inline-flex;
+  }
+  div{
+
+
+  }
+}.head{
+    display: inline-flex;
+    }
+nav{
+    justify-content: center;
+    margin-top: 10px;
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+}
+.nav-bar{
+        
+        padding-top: 0vw;
+        padding-left: 15vw;
+}
+button{
+    float: right;
+    margin-right: 5vw;
+    position: relative;
+
+}
+
+.button{
+    float: right;
+    width: 5vw;
+    height: 5vh;
+    margin-right: 0vw;
+    position: absolute;
+    top: 10px;
+        right: 10px;
+        
+}
+.button:hover{
+    background-color: rgb(113, 86, 138);
+    color: white;
+}
+main{
+    padding: 20px;
+}
+.main-section{
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+main div{
+ display: inline;
+    }
+
+
+.button1{
+    width: 5vw;
+    height: 5vh;
+    background-color: blueviolet;
+    text-align: center;
+}
+.button2{
+ 
+    width: 5vw;
+    height: 5vh;
+    text-align: center;
+}
+
+.button1:hover{
+    background-color: rgb(108, 80, 134);
+    color: white;
+}
+
+.button2:hover{
+    background-color: blueviolet;
+    transform: none;
+    color: white;
+}
+footer{
+    margin-left: 20px;
+}
+footer a{
+    background-color: blueviolet;
+    justify-content: center;
+    border-radius: 2px;
+    padding: 1px;
+    margin: 5px;
+}
